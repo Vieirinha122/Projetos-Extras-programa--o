@@ -14,20 +14,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="js/scripts.js" defer></script>
   </head>
   <body>
     <div class="todo-container">
-      <header>
+      <header class="header">
+        <img src="./img/android/mipmap-hdpi/ícone_lista.png" alt="Ícone do app">
         <h1>Lista de tarefas</h1>
       </header>
       <form id="todo-form">
         <p>Adicione sua tarefa</p>
         <div class="form-control">
           <input
-            type="text"
-            id="todo-input"
-            placeholder="O que você vai fazer?"
+          type="text"
+          id="todo-input"
+          placeholder="O que você vai fazer?"
           />
           <button type="submit">
             <i class="fa-thin fa-plus"></i>
@@ -66,5 +66,7 @@
       <div id="todo-list">
       </div>
     </div>
+    <script src="js/scripts.js" defer></script>
   </body>
-</html>
+  </html>
+  
